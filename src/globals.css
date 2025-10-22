@@ -1,0 +1,42 @@
+:root {
+  --color-primary: hsl(54, 89%, 48%);
+  --color-secondary: hsl(54, 88%, 68%); /* 10% opacity */
+}
+
+.text-primary { color: var(--color-primary) !important; }
+
+.text-primary-hover:hover {
+  color: var(--color-primary) !important;
+}
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-primary-hover:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary-hover:hover {
+  background-color: var(--color-secondary ) !important;
+}
+
+.border-primary{
+  border: 2px solid var(--color-primary) !important;
+}
+
+.border-primary-hover:hover {
+  border: 2px solid var(--color-primary) !important;
+}
+
+
+.hover\:shadow-custom:hover {
+  box-shadow: 0 4px 10px var(--color-primary);
+}
+
+.active\:shadow-custom:active {
+  box-shadow: 0 4px 10px var(--color-primary);
+}
