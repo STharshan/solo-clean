@@ -11,7 +11,7 @@ export default function ServicesSection() {
       id: 1,
       title: "Painting Services",
       description:
-        "Comprehensive cleaning services for businesses and commercial spaces",
+        "Expert painting services to refresh and beautify interiors and exteriors.",
       image: "/s1.jpg",
       color: "from-blue-500 to-cyan-500",
       link: "/Foodplante",
@@ -20,7 +20,7 @@ export default function ServicesSection() {
       id: 2,
       title: "Cleaning Services",
       description:
-        "The management and maintenance of cleanliness, organization, and overall upkeep of a home, hotel, or facility",
+        "Comprehensive cleaning solutions for homes, offices, and commercial spaces.",
       image: "/s2.jpg",
       color: "from-green-500 to-emerald-500",
       link: "/commercial-cleaning",
@@ -29,7 +29,7 @@ export default function ServicesSection() {
       id: 5,
       title: "Window Cleaning",
       description:
-        "Specialized cleaning to ensure health and safety standards compliance",
+        "Professional service to make your windows spotless, streak-free, and sparkling.",
       image: "/s5.jpg",
       color: "from-yellow-500 to-orange-500",
       link: "/Postconstructioncleaning",
