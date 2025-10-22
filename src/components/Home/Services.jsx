@@ -17,6 +17,15 @@ export default function ServicesSection() {
       link: "/Foodplante",
     },
     {
+      id: 5,
+      title: "Window Cleaning",
+      description:
+        "Professional service to make your windows spotless, streak-free, and sparkling.",
+      image: "/s5.jpg",
+      color: "from-yellow-500 to-orange-500",
+      link: "/Postconstructioncleaning",
+    },
+    {
       id: 2,
       title: "Cleaning Services",
       description:
@@ -25,15 +34,6 @@ export default function ServicesSection() {
       color: "from-green-500 to-emerald-500",
       link: "/commercial-cleaning",
     },
-    {
-      id: 5,
-      title: "Window Cleaning",
-      description:
-        "Professional service to make your windows spotless, streak-free, and sparkling.",
-      image: "/s5.jpg",
-      color: "from-yellow-500 to-orange-500",
-      link: "/Postconstructioncleaning",
-    }
   ];
 
   useEffect(() => {
